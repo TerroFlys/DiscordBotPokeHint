@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'bot'
+}
+
+group 'be.chenko'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest{
+        attributes(
+                'Main-Class': "bot"
+        )
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.javacord:javacord:3.3.2'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
