@@ -15,7 +15,7 @@ public class bot {
 
 
         DiscordApi api = new DiscordApiBuilder()
-                .setToken("NzEzMDIxNTAzMjIxNzkyNzk5.XsaDBQ._NgTXsMB3sLFSxG9KxdDnsJAKH8")
+                .setToken("")
                 .login().join();
 
 
