@@ -15,7 +15,9 @@ public class UtilityCode {
         System.out.println("searching: " + regexReady);
         ArrayList<String> list = new ArrayList<>();
 
+
         File csvFile = new File("./files/pokemonList.txt");
+        System.out.println();
         try {
             Scanner fileReader = new Scanner(csvFile);
             while (fileReader.hasNextLine()){
