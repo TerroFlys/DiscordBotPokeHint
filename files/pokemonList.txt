@@ -1,4 +1,3 @@
-name
 Polteageist
 Unown
 Infernape
@@ -35,7 +34,7 @@ Nidorina
 Woobat
 Corphish
 Wooper
-Flab‚b‚
+FlabÃ©bÃ©
 Salazzle
 Palpitoad
 Hattrem

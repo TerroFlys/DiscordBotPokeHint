@@ -15,7 +15,7 @@ public class bot {
 
 
         DiscordApi api = new DiscordApiBuilder()
-                .setToken("")
+                .setToken(System.getenv("CLIENT_SECRET"))
                 .login().join();
 
 
